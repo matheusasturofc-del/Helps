@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "painel",
+	"version": "${version}",
+	"name": "Painel de Gravação",
+	"description": "Painel estilo Minecraft para controlar vida, fome, voo e mais durante gravações. Só o host precisa instalar.",
+	"authors": ["Matheus"],
+	"license": "MIT",
+	"icon": "assets/painel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.matheus.painel.PainelMod"],
+		"client": ["com.matheus.painel.client.PainelClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
